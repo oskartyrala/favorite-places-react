@@ -5,7 +5,7 @@ function App(): JSX.Element {
   return (
     <>
       <PageHeader 
-        heading = {"Oskar's Favourite Places"}
+        heading = {"I was there:"}
       />
 
       <PlaceEntry
