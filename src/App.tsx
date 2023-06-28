@@ -1,5 +1,6 @@
 import PageHeader from "./PageHeader/PageHeader"
 import PlaceEntry from "./PlaceEntry/PlaceEntry"
+import PageFooter from "./PageFooter/PageFooter";
 
 function App(): JSX.Element {
   return (
@@ -35,6 +36,7 @@ function App(): JSX.Element {
         description = "My most recent trip! This is where I beat my fear of heights (kinda)."
       />
 
+      <PageFooter />
     </>
   )
 }
