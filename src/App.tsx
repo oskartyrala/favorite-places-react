@@ -17,6 +17,15 @@ function App(): JSX.Element {
       description = "I studied there for 4 months in 2017 and loved it! I've been meaning to go back ever since, but for one reason or another never did."
       />
       
+      <PlaceEntry
+      title = "In the heart of Scotland"
+      name = "Edinburgh"
+      country = "Scotland"
+      imageURL = "https://images.pexels.com/photos/2957060/pexels-photo-2957060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      location = "https://goo.gl/maps/efYFgKNWvx2Rwxic7"
+      description = "I worked there in the summer of 2015 and 2016, and I fell in love with the colors of Edinburgh. Something about this city is just magical."
+      />
+
     </>
   )
 }
