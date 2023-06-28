@@ -2,7 +2,7 @@ import "./PlaceEntry.css"
 
 interface Place {
     title: string;
-    name: string;
+    city: string;
     country: string;
     imageURL: string;
     location: string;
@@ -15,7 +15,7 @@ function PlaceEntry(props: Place): JSX.Element {
             <img src={props.imageURL} alt={props.title}></img>
             <div>
                 <h2>{props.title}</h2>
-                <h3>{props.name}</h3>
+                <h3>{props.city}</h3>
                 <p>{props.country}</p>
                 <a href={props.location}>Where is it?</a>
                 <p>{props.description}</p>

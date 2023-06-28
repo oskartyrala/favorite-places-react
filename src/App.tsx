@@ -10,7 +10,7 @@ function App(): JSX.Element {
 
       <PlaceEntry
         title = "The capital of Andalusia"
-        name = "Sevilla"
+        city = "Sevilla"
         country = "Spain"
         imageURL = "https://images.pexels.com/photos/5470587/pexels-photo-5470587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         location = "https://goo.gl/maps/8NgWhwFxYtcaZshx8"
@@ -19,7 +19,7 @@ function App(): JSX.Element {
       
       <PlaceEntry
         title = "In the heart of Scotland"
-        name = "Edinburgh"
+        city = "Edinburgh"
         country = "Scotland"
         imageURL = "https://images.pexels.com/photos/2957060/pexels-photo-2957060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         location = "https://goo.gl/maps/efYFgKNWvx2Rwxic7"
@@ -28,7 +28,7 @@ function App(): JSX.Element {
 
       <PlaceEntry
         title = "Tokyo Metropolis"
-        name = "Tokyo"
+        city = "Tokyo"
         country = "Japan"
         imageURL = "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         location = "https://goo.gl/maps/18kTedr1fTRyEQMW6"
