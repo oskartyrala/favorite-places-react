@@ -10,7 +10,7 @@ function App(): JSX.Element {
 
       <PlaceEntry
       title = "Sevilla"
-      name = "Sevill"
+      name = "Sevilla"
       country = "Country placeholder"
       imageURL = "https://images.pexels.com/photos/5470587/pexels-photo-5470587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       location = "https://goo.gl/maps/8NgWhwFxYtcaZshx8"
