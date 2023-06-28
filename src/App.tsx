@@ -1,5 +1,5 @@
 import PageHeader from "./PageHeader"
-import PlaceEntry from "./PlaceEntry"
+import PlaceEntry from "./PlaceEntry/PlaceEntry"
 
 function App(): JSX.Element {
   return (
