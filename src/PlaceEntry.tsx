@@ -14,7 +14,7 @@ function PlaceEntry(props: Place): JSX.Element {
             <h3>{props.name}</h3>
             <p>{props.country}</p>
             <img src={props.imageURL} alt={props.title}></img>
-            <a href={props.location}>Google Maps</a>
+            <a href={props.location}>Where is it?</a>
             <p>{props.description}</p>
         </>
     )
