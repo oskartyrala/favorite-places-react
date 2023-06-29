@@ -1,9 +1,9 @@
 import "./PlaceEntry.css"
+import "../img/fuji-pagoda.png"
 
 interface Place {
     title: string;
     city: string;
-    country: string;
     imageURL: string;
     location: string;
     description: string;
@@ -12,11 +12,10 @@ interface Place {
 function PlaceEntry(props: Place): JSX.Element {
     return (
         <div className="place-card">
-            <img src={props.imageURL} alt={props.title}></img>
+            <img src="./img/fuji-pagoda.png" alt={props.title}></img>
             <div>
                 <h2>{props.title}</h2>
                 <h3>{props.city}</h3>
-                <p>{props.country}</p>
                 <a href={props.location}>Where is it?</a>
                 <p>{props.description}</p>
             </div>
