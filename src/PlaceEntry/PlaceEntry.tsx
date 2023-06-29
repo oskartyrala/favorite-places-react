@@ -3,6 +3,7 @@ import "./PlaceEntry.css";
 interface Place {
   title: string;
   city: string;
+  ward?: string;
   imageURL: string;
   location: string;
   description: string;
@@ -15,6 +16,7 @@ function PlaceEntry(props: Place): JSX.Element {
       <div>
         <h2>{props.title}</h2>
         <h3>{props.city}</h3>
+        <h4>{props.ward}</h4>
         <a href={props.location}>Where is it?</a>
         <p>{props.description}</p>
       </div>
