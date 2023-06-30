@@ -1,6 +1,6 @@
 import "./PlaceEntry.css";
 
-interface Place {
+export interface Place {
   title: string;
   city: string;
   ward?: string;
@@ -24,4 +24,4 @@ function PlaceEntry(props: Place): JSX.Element {
   );
 }
 
-export default PlaceEntry;
+export { PlaceEntry };
