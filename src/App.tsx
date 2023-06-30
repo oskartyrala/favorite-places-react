@@ -5,7 +5,7 @@ import PageFooter from "./PageFooter/PageFooter";
 function App(): JSX.Element {
   return (
     <>
-      <PageHeader heading={"I was there:"} />
+      <PageHeader heading={"Japan Explored: Discover the Delights of My Favorite Must-See Destinations Across the Land of the Rising Sun!"} />
 
       <PlaceEntry
         title="Meiji Jingu Forest"
