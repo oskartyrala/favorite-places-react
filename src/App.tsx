@@ -10,6 +10,7 @@ function App(): JSX.Element {
       <PlaceEntry
         title="Meiji Jingu Forest"
         city="Tokyo"
+        ward="Shibuya"
         imageURL="/img/meiji-jingu.png"
         location="#"
         description="Lorem ipsum"
@@ -43,6 +44,7 @@ function App(): JSX.Element {
       <PlaceEntry
         title="Tokyo Tower"
         city="Tokyo"
+        ward="Minato"
         imageURL="/img/tokyo-tower-view.png"
         location="#"
         description="Lorem ipsum"
@@ -51,6 +53,7 @@ function App(): JSX.Element {
       <PlaceEntry
         title="Guitar Street"
         city="Tokyo"
+        ward="Chiyoda"
         imageURL="/img/guitar-street.png"
         location="#"
         description="Lorem ipsum"
