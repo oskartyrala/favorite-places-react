@@ -5,7 +5,11 @@ import PageFooter from "./PageFooter/PageFooter";
 function App(): JSX.Element {
   return (
     <>
-      <PageHeader heading={"Japan Explored: Discover the Delights of My Favorite Must-See Destinations Across the Land of the Rising Sun!"} />
+      <PageHeader
+        heading={
+          "Japan Explored: Discover the Delights of My Favorite Must-See Destinations Across the Land of the Rising Sun!"
+        }
+      />
 
       <PlaceEntry
         title="Meiji Jingu Forest"
@@ -35,7 +39,7 @@ function App(): JSX.Element {
       <PlaceEntry
         title="Koishikawa Korakuen Gardens"
         city="Tokyo"
-        ward='Bunkyō'
+        ward="Bunkyō"
         imageURL="/img/koishikawa-korakuen-gardens.png"
         location="https://goo.gl/maps/ihv9egXVDTTKSp3n7"
         description="Koishikawa Korakuen Gardens offer a perfect breakfast setting, combining serene beauty, lush landscapes, and tranquil water features for a peaceful morning experience."

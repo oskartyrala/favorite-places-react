@@ -1,4 +1,4 @@
-import "./PageHeader.css"
+import "./PageHeader.css";
 
 interface Header {
   heading: string;
