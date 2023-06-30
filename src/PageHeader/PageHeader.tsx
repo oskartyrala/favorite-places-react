@@ -1,3 +1,5 @@
+import "./PageHeader.css"
+
 interface Header {
   heading: string;
 }

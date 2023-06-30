@@ -8,6 +8,14 @@ function App(): JSX.Element {
       <PageHeader heading={"I was there:"} />
 
       <PlaceEntry
+        title="Meiji Jingu Forest"
+        city="Tokyo"
+        imageURL="/img/meiji-jingu.png"
+        location="#"
+        description="Lorem ipsum"
+      />
+
+      <PlaceEntry
         title="Chureito Pagoda"
         city="Fujiyoshida"
         imageURL="/img/fuji-pagoda.png"
@@ -16,9 +24,9 @@ function App(): JSX.Element {
       />
 
       <PlaceEntry
-        title="Guitar Street"
-        city="Tokyo"
-        imageURL="/img/guitar-street.png"
+        title="Fushimi Inari Pathway"
+        city="Kyoto"
+        imageURL="/img/kyoto-fushimi-inari-pathway.png"
         location="#"
         description="Lorem ipsum"
       />
@@ -33,25 +41,17 @@ function App(): JSX.Element {
       />
 
       <PlaceEntry
-        title="Bamboo Grove"
-        city="Kyoto"
-        imageURL="/img/kyoto-bamboo-grove.png"
-        location="#"
-        description="Lorem ipsum"
-      />
-
-      <PlaceEntry
-        title="Fushimi Inari Pathway"
-        city="Kyoto"
-        imageURL="/img/kyoto-fushimi-inari-pathway.png"
-        location="#"
-        description="Lorem ipsum"
-      />
-
-      <PlaceEntry
-        title="Meiji Jingu Forest"
+        title="Tokyo Tower"
         city="Tokyo"
-        imageURL="/img/meiji-jingu.png"
+        imageURL="/img/tokyo-tower-view.png"
+        location="#"
+        description="Lorem ipsum"
+      />
+
+      <PlaceEntry
+        title="Guitar Street"
+        city="Tokyo"
+        imageURL="/img/guitar-street.png"
         location="#"
         description="Lorem ipsum"
       />
@@ -65,9 +65,9 @@ function App(): JSX.Element {
       />
 
       <PlaceEntry
-        title="Tokyo Tower"
-        city="Tokyo"
-        imageURL="/img/tokyo-tower-view.png"
+        title="Bamboo Grove"
+        city="Kyoto"
+        imageURL="/img/kyoto-bamboo-grove.png"
         location="#"
         description="Lorem ipsum"
       />
